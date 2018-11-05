@@ -12,6 +12,8 @@
 		D8766FBD218FC1130097C886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8766FBB218FC1130097C886 /* Main.storyboard */; };
 		D8766FBF218FC1150097C886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8766FBE218FC1150097C886 /* Assets.xcassets */; };
 		D8766FC2218FC1150097C886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8766FC0218FC1150097C886 /* LaunchScreen.storyboard */; };
+		D8766FCA218FC1B70097C886 /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766FC9218FC1B70097C886 /* ChemicalElement.swift */; };
+		D8766FCC218FC4C00097C886 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766FCB218FC4C00097C886 /* ElementsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D8766FBE218FC1150097C886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8766FC1218FC1150097C886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8766FC3218FC1150097C886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8766FC9218FC1B70097C886 /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
+		D8766FCB218FC4C00097C886 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		D8766FB6218FC1130097C886 /* MyTable */ = {
 			isa = PBXGroup;
 			children = (
+				D8766FC9218FC1B70097C886 /* ChemicalElement.swift */,
+				D8766FCB218FC4C00097C886 /* ElementsTableViewController.swift */,
 				D8766FB7218FC1130097C886 /* AppDelegate.swift */,
 				D8766FB9218FC1130097C886 /* ViewController.swift */,
 				D8766FBB218FC1130097C886 /* Main.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8766FCC218FC4C00097C886 /* ElementsTableViewController.swift in Sources */,
 				D8766FBA218FC1130097C886 /* ViewController.swift in Sources */,
 				D8766FB8218FC1130097C886 /* AppDelegate.swift in Sources */,
+				D8766FCA218FC1B70097C886 /* ChemicalElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +291,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U8R5DW25KH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uoc.com.MyTable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uoc-.MyTable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U8R5DW25KH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uoc.com.MyTable;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uoc-.MyTable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
