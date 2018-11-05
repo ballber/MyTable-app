@@ -16,6 +16,10 @@ class ElementsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Ja es defineixen a l'Storyboard :  TableView > (botó dret) > outlets
+        // tableView.dataSource = self
+        // tableView.delegate = self
+        
         print("La nostra taula mostra \(tableView(tableView,numberOfRowsInSection: 0)) elements químics.")
     }
     /*
@@ -35,7 +39,7 @@ class ElementsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath)
         
         // Configure the cell...
-        //chemicalElement = Manager.elements[indexPath.item]
+        // let chemicalElement = Manager.elements[indexPath.item]
         
         cell.textLabel?.text = Manager.elements[indexPath.item].name
         cell.detailTextLabel?.text = "Symbol : \(Manager.elements[indexPath.item].symbol)  & Atomic number \(Manager.elements[indexPath.item].atomicNumber)"
