@@ -44,7 +44,6 @@
 		D8766FAB218FC1120097C886 = {
 			isa = PBXGroup;
 			children = (
-				D8766FCD218FD0610097C886 /* ElementCell.swift */,
 				D8766FB6218FC1130097C886 /* MyTable */,
 				D8766FB5218FC1120097C886 /* Products */,
 			);
@@ -68,6 +67,7 @@
 				D8766FBB218FC1130097C886 /* Main.storyboard */,
 				D8766FBE218FC1150097C886 /* Assets.xcassets */,
 				D8766FC0218FC1150097C886 /* LaunchScreen.storyboard */,
+				D8766FCD218FD0610097C886 /* ElementCell.swift */,
 				D8766FC3218FC1150097C886 /* Info.plist */,
 			);
 			path = MyTable;
