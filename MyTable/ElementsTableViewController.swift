@@ -13,17 +13,23 @@ class ElementsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     //let items  = Manager.elements
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("La nostra taula mostra \(tableView(tableView,numberOfRowsInSection: 0)) elements químics.")
+    }
     /*
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }*/
-
+    
+    // Retorna el número de files de la taula a la secció única, la 0
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return Manager.elements.count
     }
 
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath)
         
