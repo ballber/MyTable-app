@@ -14,6 +14,7 @@
 		D8766FC2218FC1150097C886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8766FC0218FC1150097C886 /* LaunchScreen.storyboard */; };
 		D8766FCA218FC1B70097C886 /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766FC9218FC1B70097C886 /* ChemicalElement.swift */; };
 		D8766FCC218FC4C00097C886 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766FCB218FC4C00097C886 /* ElementsTableViewController.swift */; };
+		D8766FCE218FD0610097C886 /* ElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766FCD218FD0610097C886 /* ElementCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D8766FC3218FC1150097C886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8766FC9218FC1B70097C886 /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
 		D8766FCB218FC4C00097C886 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
+		D8766FCD218FD0610097C886 /* ElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		D8766FAB218FC1120097C886 = {
 			isa = PBXGroup;
 			children = (
+				D8766FCD218FD0610097C886 /* ElementCell.swift */,
 				D8766FB6218FC1130097C886 /* MyTable */,
 				D8766FB5218FC1120097C886 /* Products */,
 			);
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8766FCC218FC4C00097C886 /* ElementsTableViewController.swift in Sources */,
+				D8766FCE218FD0610097C886 /* ElementCell.swift in Sources */,
 				D8766FBA218FC1130097C886 /* ViewController.swift in Sources */,
 				D8766FB8218FC1130097C886 /* AppDelegate.swift in Sources */,
 				D8766FCA218FC1B70097C886 /* ChemicalElement.swift in Sources */,
