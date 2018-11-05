@@ -31,6 +31,7 @@ class ElementsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("Cridat ara!")
         let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath)
         
         // Configure the cell...
