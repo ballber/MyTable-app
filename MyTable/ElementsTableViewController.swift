@@ -36,13 +36,14 @@ class ElementsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print("Cridat ara!")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath)
-        
+        // let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ElementCell", for: indexPath) as! ElementCell
         // Configure the cell...
-        // let chemicalElement = Manager.elements[indexPath.item]
-        
-        cell.textLabel?.text = Manager.elements[indexPath.item].name
-        cell.detailTextLabel?.text = "Symbol : \(Manager.elements[indexPath.item].symbol)  & Atomic number \(Manager.elements[indexPath.item].atomicNumber)"
+        let chemicalElement = Manager.elements[indexPath.item]
+        cell.nameLabel.text = chemicalElement.name
+        cell.symbolLabel.text = chemicalElement.symbol
+//        cell.textLabel?.text = Manager.elements[indexPath.item].name
+//        cell.detailTextLabel?.text = "Symbol : \(Manager.elements[indexPath.item].symbol)  & Atomic number \(Manager.elements[indexPath.item].atomicNumber)"
         return cell
     }
 

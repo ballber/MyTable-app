@@ -49,6 +49,10 @@
                                         <constraint firstAttribute="bottom" secondItem="lPu-xL-KiC" secondAttribute="bottom" id="QcI-on-VwP"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="43Z-zs-4tf" id="qKN-UX-wld"/>
+                                    <outlet property="symbolLabel" destination="qvk-dw-eS5" id="yT0-Ch-Zbp"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
